@@ -1,10 +1,10 @@
 on:
   rss:
-    url: https://hnrss.org/newest?points=300&count=3
+    url: https://archlinux.org/feeds/news/
 jobs:
   print:
     name: Print
-    runs-on: ubuntu-latest
+    runs-on: archlinux-news
     steps:
       - name: Print Outputs
         env:
