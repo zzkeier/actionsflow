@@ -1,6 +1,6 @@
 on:
   rss:
-    url: https://archlinux.org/feeds/news/
+    url: https://hnrss.org/newest?points=300&count=3
 jobs:
   print:
     name: Print
