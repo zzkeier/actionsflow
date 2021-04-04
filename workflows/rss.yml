@@ -14,7 +14,7 @@ jobs:
           server_port: 587
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
-          subject: ${{ on.rss.outputs.title }}
+          subject: Archlinux:${{ on.rss.outputs.title }}
           # Literal body:
           body: ${{ on.rss.outputs.content }}
           # Read file contents as body:
