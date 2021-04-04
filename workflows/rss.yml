@@ -1,7 +1,7 @@
 name: Send email new RSS Feed items	
 on:
   rss:
-    url: https://hnrss.org/newest?points=300&count=1
+    url: https://archlinux.org/feeds/news/
 jobs:
   email:
     name: Post a email
