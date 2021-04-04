@@ -18,7 +18,7 @@ jobs:
           # Literal body:
           body: ${{ on.rss.outputs.content }}
           # Read file contents as body:
-          to: 826284489@qq.com
+          to: zzkeier@88.com
           from: zhangzhoukai@outlook.com # <user@example.com>
           # Optional content type (defaults to text/plain):
           content_type: text/html
